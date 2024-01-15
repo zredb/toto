@@ -10,3 +10,6 @@ pub mod tou16;
 pub mod tou32;
 pub mod tou64;
 pub mod tou8;
+
+pub mod toisize;
+pub mod tousize;

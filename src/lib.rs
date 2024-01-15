@@ -1,5 +1,5 @@
 pub mod func;
-pub mod r#trait;
+pub mod traits;
 
 pub use self::func::fromf32::*;
 pub use self::func::fromf64::*;
@@ -14,18 +14,18 @@ pub use self::func::fromu32::*;
 pub use self::func::fromu64::*;
 pub use self::func::fromu8::*;
 
-pub use self::r#trait::tof32::*;
-pub use self::r#trait::tof64::*;
-pub use self::r#trait::toi128::*;
-pub use self::r#trait::toi16::*;
-pub use self::r#trait::toi32::*;
-pub use self::r#trait::toi64::*;
-pub use self::r#trait::toi8::*;
-pub use self::r#trait::tou128::*;
-pub use self::r#trait::tou16::*;
-pub use self::r#trait::tou32::*;
-pub use self::r#trait::tou64::*;
-pub use self::r#trait::tou8::*;
+pub use self::traits::tof32::*;
+pub use self::traits::tof64::*;
+pub use self::traits::toi128::*;
+pub use self::traits::toi16::*;
+pub use self::traits::toi32::*;
+pub use self::traits::toi64::*;
+pub use self::traits::toi8::*;
+pub use self::traits::tou128::*;
+pub use self::traits::tou16::*;
+pub use self::traits::tou32::*;
+pub use self::traits::tou64::*;
+pub use self::traits::tou8::*;
 
 #[cfg(test)]
 mod tests {
